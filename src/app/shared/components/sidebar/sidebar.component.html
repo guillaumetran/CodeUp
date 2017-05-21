@@ -1,20 +1,19 @@
 <nav class="sidenav">
   <section class="sidenav-content">
-    <a class="nav-link">
-      Accueil
-    </a>
     <section class="nav-group collapsible">
-      <input id="cours" type="checkbox">
-      <label for="cours">Cours</label>
+      <input id="Language" type="checkbox">
+      <label for="Language">Language</label>
       <ul class="nav-list">
         <li><a class="nav-link" [routerLink]="['/']" [routerLinkActive]="['active']">C</a></li>
       </ul>
-    </section>
-    <section class="nav-group collapsible">
-      <input id="exercices" type="checkbox">
-      <label for="exercices">Exercices</label>
       <ul class="nav-list">
-        <li><a class="nav-link" [routerLink]="['/']" [routerLinkActive]="['active']">C</a></li>
+        <li><a class="nav-link" [routerLink]="['/']">C++</a></li>
+      </ul>
+      <ul class="nav-list">
+        <li><a class="nav-link" [routerLink]="['/']">Python</a></li>
+      </ul>
+      <ul class="nav-list">
+        <li><a class="nav-link" [routerLink]="['/']">Java</a></li>
       </ul>
     </section>
   </section>
