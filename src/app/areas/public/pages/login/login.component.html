@@ -1,0 +1,22 @@
+<div class="login-wrapper">
+  <form class="login">
+    <label class="title">
+      SmartBuilding<span class="trademark">&#8482;</span>
+    </label>
+    <div class="login-group">
+      <input class="username" type="text" id="login_username" placeholder="Adresse email">
+      <input class="password" type="password" id="login_password" placeholder="Mot de passe">
+      <div class="checkbox">
+        <input type="checkbox" id="rememberme">
+        <label for="rememberme">
+          Se souvenir de moi
+        </label>
+      </div>
+      <div class="error active">
+        Adresse ou mot de passe invalide
+      </div>
+      <button type="button" class="btn btn-primary" (click)="onLogin()">Connexion</button>
+      <a class="signup" [routerLink]="['/register']">Créer un compte</a>
+    </div>
+  </form>
+</div>
